@@ -1,0 +1,24 @@
+{
+    "name": "salehmahmood/cowpress",
+    "description": "Composer WordPress.",
+    "keywords": ["cowpress","wordpress", "template", "composer", "package"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Saleh Mahmood",
+            "email": "thesalehmahmood@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7.1"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SalehMahmood\\CoWPress\\": "src/"
+        }
+    }
+}
